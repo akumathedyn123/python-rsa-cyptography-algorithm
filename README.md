@@ -6,7 +6,9 @@ RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem, one of the oldest 
 
 # Let's see how it works
 
-## Here's how RSA works with small prime numbers (let's say p = 11 and q = 13):
+## Here's how RSA works with small prime numbers: 
+
+### Let's say p = 11 and q = 13
 
 ### Key Generation
 
@@ -83,10 +85,6 @@ The program offers two functionalities: secure chatting and analysis. The chatti
 # License
 
 **This project is licensed under the MIT License (see LICENSE file for details).**
-
-# Disclaimer
-
-This project has some functions that are not written by this author. This author knows the fumctions. So if you are the main author and wants to remove this, then prove your ownership and apply to rermove this.
 
 # Warning
 

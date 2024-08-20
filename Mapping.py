@@ -1,7 +1,6 @@
-# creating lookup table
-# 0-9 should return their value 0→0, 5→5, 9→9
-# a should map to 10, b to 11, c to 12 etc. up to z→35
-# Space should map to 36
+# Numbers 0 to 9 should map to their corresponding numerical values. For example, 0 maps to 0, 5 maps to 5, and 9 maps to 9.
+# Letters a to z should map to numerical values starting from 10. For example, a maps to 10, b maps to 11, and z maps to 35.
+# A space character should map to the value 36.
 MAPPING = {
     "0": 0,
     "1": 1,
@@ -42,9 +41,10 @@ MAPPING = {
     " ": 36,
 }
 
-# creating inverse lookup table
-# 0→0, 5→5, 9→9, 10→a, 11→b, 12→c etc. up to 35→z
-# 36 should map to Space
+# Numbers 0 to 9 should map to their corresponding characters. For example, 0 maps to '0', 5 maps to '5', and 9 maps to '9'.
+# Numbers 10 to 35 should map to the corresponding lowercase letters. For example, 10 maps to 'a', 11 maps to 'b', and 35 maps to 'z'.
+# The number 36 should map to a space character.
+
 INVERSE_MAPPING = {
     0: "0",
     1: "1",

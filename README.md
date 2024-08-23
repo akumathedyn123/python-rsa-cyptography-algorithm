@@ -43,18 +43,19 @@ The receiver with the private key can decrypt the message by raising the ciphert
 1. **Clone the Repository:**
 
    (Follow your preferred method for cloning the repository)
+   Download zip or Clone with Git.
 
-2. **Python Version:**
+3. **Python Version:**
 
    - Ensure you have Python 3.x installed. You can check by running `python3 --version` in your terminal.
 
-3. **Install Libraries:**
+4. **Install Libraries:**
 
    ```bash
    pip install pycryptodome matplotlib
    ``` 
 
-4. Running the Chatting Program
+5. Running the Chatting Program
 
    1. Open two separate terminal windows:
 
@@ -72,7 +73,7 @@ The receiver with the private key can decrypt the message by raising the ciphert
 
     **The program will automatically generate and share port numbers and keys, allowing you to start chatting immediately.**
 
-5. To run the attack program and the analysis of encryption/decryption times, run the following command in the terminal:
+6. To run the attack program and the analysis of encryption/decryption times, run the following command in the terminal:
 
 ```bash
 python analysis.py

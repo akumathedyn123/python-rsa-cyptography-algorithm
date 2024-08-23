@@ -35,7 +35,7 @@ This is the trickier part. It's the modular multiplicative inverse of e modulo p
 
 The receiver with the private key can decrypt the message by raising the ciphertext (78) to the power of the private exponent (d) and taking the modulo by the modulus (n): Decrypted message = 78^103 mod 143 = 5.
 
-Real-world RSA uses much larger prime numbers (thousands of digits), making it incredibly difficult to crack the code by factoring the public key (n) back into its prime components. This is why RSA is a secure cryptosystem for real-world applications.
+#### Real-world RSA uses much larger prime numbers (thousands of digits), making it incredibly difficult to crack the code by factoring the public key (n) back into its prime components. This is why RSA is a secure cryptosystem for real-world applications.
 
 
 # Setting Up the Program
